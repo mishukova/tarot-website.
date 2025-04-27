@@ -1,0 +1,60 @@
+<style>
+/* Общие стили */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f1e7;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Заголовок */
+h1 {
+  color: #5c4327;
+  font-size: 36px;
+  text-shadow: 1px 1px 0 #d9c4a6;
+  margin-bottom: 20px;
+}
+
+/* Контейнер для карты */
+#card-container {
+  margin-top: 30px;
+}
+
+/* Кнопка */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #8b6d44;
+  color: white;
+  border: 2px solid #5c4327;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a4835a;
+}
+
+/* Карта */
+.card {
+  background: linear-gradient(to bottom, #f8f1e7, #e2d0b5);
+  padding: 20px;
+  margin-top: 20px;
+  border: 4px solid #5c4327;
+  border-radius: 16px;
+  display: inline-block;
+  max-width: 320px;
+  box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+  position: relative;
+}
+
+/* Рамка вокруг изображения */
+img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #5c4327;
+}
+</style>
